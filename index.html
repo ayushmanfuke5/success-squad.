@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success Squad — Entrepreneurship Development Cell | JSPM NTC</title>
+    <meta name="description" content="Success Squad is the Entrepreneurship Development Cell of JSPM Narhe Technical Campus. We turn student ideas into ventures through mentorship, hackathons, incubation and industry connect.">
+    <meta name="keywords" content="Success Squad, EDC, JSPM, Narhe, Pune, Entrepreneurship, Startup, Innovation, Hackathon">
+    <meta property="og:title" content="Success Squad — From Vision to Venture">
+    <meta property="og:description" content="Entrepreneurship Development Cell, JSPM Narhe Technical Campus">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/jpg" href="Success Squad.jpg">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Boxicons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    
+    
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- Navigation -->
+    <header class="nav" id="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="Success Squad.jpg" alt="Success Squad Logo">
+                <span>SUCCESS SQUAD</span>
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#team" class="nav-link">Team</a>
+                <a href="#events" class="nav-link">Events</a>
+                <a href="#startups" class="nav-link">Startups</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#join" class="nav-btn">Join Us</a>
+            </nav>
+            
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="hero-grid"></div>
+            <div class="hero-orbit" id="heroOrbit">
+                <span class="orbit-word" style="--i:1">IDEATE</span>
+                <span class="orbit-word" style="--i:2">BUILD</span>
+                <span class="orbit-word" style="--i:3">LAUNCH</span>
+                <span class="orbit-word" style="--i:4">GROW</span>
+                <span class="orbit-word" style="--i:5">LEAD</span>
+                <span class="orbit-word" style="--i:6">IMPACT</span>
+            </div>
+            <div class="hero-glow"></div>
+        </div>
+        
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge" data-reveal>
+                    <span class="badge-dot"></span>
+                    JSPM NTC • ENTREPRENEURSHIP DEVELOPMENT CELL
+                </div>
+                
+                <h1 class="hero-title" data-reveal>
+                    <span class="title-line">FROM</span>
+                    <span class="title-line">VISION</span>
+                    <span class="title-line">TO <em>VENTURE.</em></span>
+                </h1>
+                
+                <p class="hero-text" data-reveal>
+                    Where ambitious ideas meet innovation, mentorship, community and the courage to build something meaningful.
+                </p>
+                
+                <div class="hero-cta" data-reveal>
+                    <a href="#join" class="btn btn-primary">
+                        JOIN SUCCESS SQUAD
+                        <i class='bx bx-right-arrow-alt'></i>
+                    </a>
+                    <a href="#events" class="btn btn-secondary">
+                        EXPLORE EVENTS
+                        <i class='bx bx-arrow-back bx-flip-horizontal'></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-visual" data-reveal>
+                <div class="logo-orbit">
+                    <img src="Success Squad.jpg" alt="Success Squad" class="logo-center">
+                    <div class="orbit-ring ring-1"></div>
+                    <div class="orbit-ring ring-2"></div>
+                    <div class="orbit-ring ring-3"></div>
+                    <div class="orbit-node node-1"></div>
+                    <div class="orbit-node node-2"></div>
+                    <div class="orbit-node node-3"></div>
+                    <div class="orbit-node node-4"></div>
+                    <div class="orbit-node node-5"></div>
+                    <div class="orbit-node node-6"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand Statement -->
+    <section class="statement">
+        <div class="container">
+            <div class="statement-content" data-reveal>
+                <h2 class="statement-title">
+                    WE DON'T JUST HAVE IDEAS.<br>
+                    <span class="statement-highlight">WE TURN THEM INTO IMPACT.</span>
+                </h2>
+                <p class="statement-text">
+                    Success Squad is more than a college cell — it is a living ecosystem where students become founders, ideas become products, and curiosity becomes conviction. We run the space between dreaming and doing.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item" data-counter>
+                    <span class="stat-number" data-target="25">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">MEMBERS</span>
+                </div>
+                <div class="stat-item" data-counter>
+                    <span class="stat-number" data-target="23">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">EVENTS HOSTED</span>
+                </div>
+                <div class="stat-item" data-counter>
+                    <span class="stat-number" data-target="5">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">STARTUP IDEAS</span>
+                </div>
+                <div class="stat-item" data-counter>
+                    <span class="stat-number" data-target="10">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">WORKSHOPS</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What We Do -->
+    <section class="features" id="about">
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <span class="section-tag">WHAT WE DO</span>
+                <h2 class="section-title">Turning ideas into <em>impact.</em></h2>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card" data-reveal>
+                    <div class="feature-num">01</div>
+                    <div class="feature-icon"><i class='bx bx-bulb'></i></div>
+                    <h3 class="feature-title">Ideation & Innovation</h3>
+                    <p class="feature-text">From hackathons to ideathons, we create spaces where raw ideas collide and breakthrough concepts emerge.</p>
+                    <div class="feature-arrow"><i class='bx bx-right-arrow-alt'></i></div>
+                </div>
+                
+                <div class="feature-card" data-reveal>
+                    <div class="feature-num">02</div>
+                    <div class="feature-icon"><i class='bx bx-group'></i></div>
+                    <h3 class="feature-title">Mentorship Network</h3>
+                    <p class="feature-text">Connect with industry leaders, successful founders, and investors who've walked the entrepreneurial path.</p>
+                    <div class="feature-arrow"><i class='bx bx-right-arrow-alt'></i></div>
+                </div>
+                
+                <div class="feature-card" data-reveal>
+                    <div class="feature-num">03</div>
+                    <div class="feature-icon"><i class='bx bx-trending-up'></i></div>
+                    <h3 class="feature-title">Startup Incubation</h3>
+                    <p class="feature-text">We guide promising ventures with resources, workshops, and a thriving community to help them scale.</p>
+                    <div class="feature-arrow"><i class='bx bx-right-arrow-alt'></i></div>
+                </div>
+                
+                <div class="feature-card" data-reveal>
+                    <div class="feature-num">04</div>
+                    <div class="feature-icon"><i class='bx bx-globe'></i></div>
+                    <h3 class="feature-title">Industry Connect</h3>
+                    <p class="feature-text">Bridge the gap between campus and corporates through partnerships, talks, and live project opportunities.</p>
+                    <div class="feature-arrow"><i class='bx bx-right-arrow-alt'></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ecosystem -->
+    <section class="ecosystem">
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <span class="section-tag">THE ECOSYSTEM</span>
+                <h2 class="section-title">A complete startup universe.</h2>
+            </div>
+            
+            <div class="ecosystem-visual" data-reveal>
+                <div class="eco-center">
+                    <span>SUCCESS</span>
+                    <strong>SQUAD</strong>
+                </div>
+                <div class="eco-ring">
+                    <span class="eco-node" style="--n:1">IDEAS</span>
+                    <span class="eco-node" style="--n:2">MENTORS</span>
+                    <span class="eco-node" style="--n:3">EVENTS</span>
+                    <span class="eco-node" style="--n:4">STARTUPS</span>
+                    <span class="eco-node" style="--n:5">COMMUNITY</span>
+                    <span class="eco-node" style="--n:6">INDUSTRY</span>
+                    <span class="eco-node" style="--n:7">LEADERSHIP</span>
+                    <span class="eco-node" style="--n:8">OPPORTUNITIES</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events -->
+    <section class="events" id="events">
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <span class="section-tag">EVENTS</span>
+                <h2 class="section-title">Where ideas <em>collide.</em></h2>
+                <p class="section-subtitle">From hackathons to fireside chats, we build experiences that inspire, challenge, and connect.</p>
+            </div>
+            
+            <div class="events-grid">
+                <!-- Featured Event -->
+                <div class="event-card event-featured" data-reveal>
+                    <span class="event-badge">FEATURED EVENT</span>
+                    <div class="event-meta">
+                        <span class="event-date">FEB 2026</span>
+                        <span class="event-category">HACKATHON</span>
+                    </div>
+                    <h3 class="event-title">Aignite</h3>
+                    <p class="event-text">10+ teams, infinite possibilities. Aignite is our flagship hackathon where student builders race to transform bold ideas into working prototypes in 48 hours.</p>
+                    <a href="#" class="event-link">EXPLORE EVENT <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                
+                <!-- Event 2 -->
+                <div class="event-card" data-reveal>
+                    <div class="event-meta">
+                        <span class="event-date">SEP 2026</span>
+                        <span class="event-category">FEST</span>
+                    </div>
+                    <h3 class="event-title">E-Fest</h3>
+                    <p class="event-text">Interesting competitions, workshops, panel sessions, and more — our largest annual celebration of entrepreneurship.</p>
+                    <a href="#" class="event-link">VIEW EVENT <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                
+                <!-- Event 3 -->
+                <div class="event-card" data-reveal>
+                    <div class="event-meta">
+                        <span class="event-date">MAR 2026</span>
+                        <span class="event-category">WORKSHOP</span>
+                    </div>
+                    <h3 class="event-title">Vibe-Coding Emmet</h3>
+                    <p class="event-text">A premium workshop answering the How and Where of modern coding — hands-on sessions for serious builders.</p>
+                    <a href="#" class="event-link">VIEW EVENT <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                
+                <!-- Event 4 -->
+                <div class="event-card" data-reveal>
+                    <div class="event-meta">
+                        <span class="event-date">FEB 2026</span>
+                        <span class="event-category">WORKSHOP</span>
+                    </div>
+                    <h3 class="event-title">AI Bootcamp</h3>
+                    <p class="event-text">A 3-hour deep dive into AI — designed for students ready to build with the technology shaping the future.</p>
+                    <a href="#" class="event-link">VIEW EVENT <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                
+                <!-- Event 5 -->
+                <div class="event-card" data-reveal>
+                    <div class="event-meta">
+                        <span class="event-date">2025</span>
+                        <span class="event-category">PITCHING</span>
+                    </div>
+                    <h3 class="event-title">Startup Pitch Day</h3>
+                    <p class="event-text">Pitch your ideas, bag your funding. Student founders present to real investors and industry mentors.</p>
+                    <a href="#" class="event-link">VIEW EVENT <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                
+                <!-- Event 6 -->
+                <div class="event-card" data-reveal>
+                    <div class="event-meta">
+                        <span class="event-date">2025</span>
+                        <span class="event-category">WORKSHOP</span>
+                    </div>
+                    <h3 class="event-title">Illuminate</h3>
+                    <p class="event-text">The speaker session — many questions, many answers. An intimate exchange with founders and industry voices.</p>
+                    <a href="#" class="event-link">VIEW EVENT <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Startups -->
+    <section class="startups" id="startups">
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <span class="section-tag">OUR PORTFOLIO</span>
+                <h2 class="section-title">Ideas that refuse<br>to stay <em>ideas.</em></h2>
+                <p class="section-subtitle">Born on campus. Nurtured within Success Squad — proof that extraordinary things happen when students dare to build.</p>
+            </div>
+            
+            <div class="startup-card" data-reveal>
+                <div class="startup-mark">CX</div>
+                <div class="startup-content">
+                    <span class="startup-category">NETWORKING PLATFORM</span>
+                    <h3 class="startup-name">Connexaa</h3>
+                    <p class="startup-text">An innovative digital platform designed to seamlessly connect people, ideas, and opportunities. Empowering the community through strategic networking.</p>
+                    <a href="https://connexaa.in" target="_blank" rel="noopener" class="startup-link">
+                        Visit connexaa.in <i class='bx bx-link-external'></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="startup-cta" data-reveal>
+                <h3 class="cta-title">Got an idea?</h3>
+                <p class="cta-text">Success Squad's incubation program provides early-stage student startups with mentorship, workspace, access to our network, and seed support.</p>
+                <a href="#contact" class="btn btn-primary">SUBMIT YOUR IDEA</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section class="team" id="team">
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <span class="section-tag">THE PEOPLE</span>
+                <h2 class="section-title">The people behind <em>Success Squad.</em></h2>
+                <p class="section-subtitle">A diverse group of passionate students driving innovation, leadership, and entrepreneurial change on campus.</p>
+            </div>
+            
+            <!-- Leadership -->
+            <div class="team-section">
+                <h3 class="team-section-title" data-reveal>Leadership</h3>
+                <div class="team-grid team-grid-lg">
+                    <div class="team-card" data-reveal>
+                        <div class="team-avatar">KS</div>
+                        <h4 class="team-name">Kunal Singh Rajput</h4>
+                        <span class="team-role">President</span>
+                        <p class="team-bio">Third year CS student. Building startup. Passionate about deep tech and impact investing.</p>
+                        <a href="https://www.linkedin.com/in/21ksr/" target="_blank" rel="noopener" class="team-social"><i class='bx bxl-linkedin'></i></a>
+                    </div>
+                    
+                    <div class="team-card" data-reveal>
+                        <div class="team-avatar">SK</div>
+                        <h4 class="team-name">Samruddhi Karale</h4>
+                        <span class="team-role">Vice President</span>
+                        <p class="team-bio">Design thinker and community builder. Leads all creative and outreach initiatives.</p>
+                        <a href="https://www.linkedin.com/in/samruddhi07karale/" target="_blank" rel="noopener" class="team-social"><i class='bx bxl-linkedin'></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Domain Leads -->
+            <div class="team-section">
+                <h3 class="team-section-title" data-reveal>Domain Leads</h3>
+                <div class="team-grid team-grid-md">
+                    <div class="team-card" data-reveal>
+                        <div class="team-avatar">SF</div>
+                        <h4 class="team-name">Sarthak Fursule</h4>
+                        <span class="team-role">Events Lead</span>
+                        <a href="https://www.linkedin.com/in/sarthak-fursule-79319530b" target="_blank" rel="noopener" class="team-social"><i class='bx bxl-linkedin'></i></a>
+                    </div>
+                    
+                    <div class="team-card" data-reveal>
+                        <div class="team-avatar">HM</div>
+                        <h4 class="team-name">Harshada Mali</h4>
+                        <span class="team-role">Marketing Lead</span>
+                    </div>
+                    
+                    <div class="team-card" data-reveal>
+                        <div class="team-avatar">SS</div>
+                        <h4 class="team-name">Shrutik Sawale</h4>
+                        <span class="team-role">Project Lead</span>
+                        <a href="https://www.linkedin.com/in/shrutik-sawale-258053298" target="_blank" rel="noopener" class="team-social"><i class='bx bxl-linkedin'></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Core Members -->
+            <div class="team-section">
+                <h3 class="team-section-title" data-reveal>Core Members</h3>
+                <div class="team-grid team-grid-sm">
+                    <div class="team-card" data-reveal>
+                        <div class="team-avatar">VS</div>
+                        <h4 class="team-name">Vaishnavi Shingade</h4>
+                        <span class="team-role">Core Member</span>
+                    </div>
+                    <div class="team-card" data-reveal>
+                        <div class="team-avatar">RR</div>
+                        <h4 class="team-name">Rudraksh Rajule</h4>
+                        <span class="team-role">Core Member</span>
+                    </div>
+                    <div class="team-card" data-reveal>
+                        <div class="team-avatar">SG</div>
+                        <h4 class="team-name">Siddhanth Gopale</h4>
+                        <span class="team-role">Core Member</span>
+                        <a href="https://www.linkedin.com/in/siddhant-gopale-13418937a" target="_blank" rel="noopener" class="team-social"><i class='bx bxl-linkedin'></i></a>
+                    </div>
+                    <div class="team-card" data-reveal>
+                        <div class="team-avatar">SD</div>
+                        <h4 class="team-name">Samarth Devgaonkar</h4>
+                        <span class="team-role">Core Member</span>
+                        <a href="https://www.linkedin.com/in/samarth-devgaonkar-885aa6367" target="_blank" rel="noopener" class="team-social"><i class='bx bxl-linkedin'></i></a>
+                    </div>
+                    <div class="team-card" data-reveal>
+                        <div class="team-avatar">AC</div>
+                        <h4 class="team-name">Atharva Chechare</h4>
+                        <span class="team-role">Core Member</span>
+                        <a href="https://www.linkedin.com/in/atharva-chechare-3a40b8381" target="_blank" rel="noopener" class="team-social"><i class='bx bxl-linkedin'></i></a>
+                    </div>
+                    <div class="team-card" data-reveal>
+                        <div class="team-avatar">ST</div>
+                        <h4 class="team-name">Shreya Thombare</h4>
+                        <span class="team-role">Core Member</span>
+                        <a href="https://www.linkedin.com/in/shreya-thombare-a258472bb" target="_blank" rel="noopener" class="team-social"><i class='bx bxl-linkedin'></i></a>
+                    </div>
+                    <div class="team-card" data-reveal>
+                        <div class="team-avatar">MJ</div>
+                        <h4 class="team-name">Mayuresh Jagtap</h4>
+                        <span class="team-role">Core Member</span>
+                        <a href="https://www.linkedin.com/in/mayuresh-jagtap-783968345" target="_blank" rel="noopener" class="team-social"><i class='bx bxl-linkedin'></i></a>
+                    </div>
+                    <div class="team-card" data-reveal>
+                        <div class="team-avatar">AK</div>
+                        <h4 class="team-name">Aayush Kadam</h4>
+                        <span class="team-role">Core Member</span>
+                        <a href="https://www.linkedin.com/in/aayush-kadam-b5bbb1393" target="_blank" rel="noopener" class="team-social"><i class='bx bxl-linkedin'></i></a>
+                    </div>
+                    <div class="team-card" data-reveal>
+                        <div class="team-avatar">OK</div>
+                        <h4 class="team-name">Omkar Kadam</h4>
+                        <span class="team-role">Core Member</span>
+                        <a href="https://www.linkedin.com/in/omkar-kadam-551161384" target="_blank" rel="noopener" class="team-social"><i class='bx bxl-linkedin'></i></a>
+                    </div>
+                    <div class="team-card" data-reveal>
+                        <div class="team-avatar">PB</div>
+                        <h4 class="team-name">Pratiksha Bhosale</h4>
+                        <span class="team-role">Core Member</span>
+                    </div>
+                    <div class="team-card" data-reveal>
+                        <div class="team-avatar">SP</div>
+                        <h4 class="team-name">Shravani Patil</h4>
+                        <span class="team-role">Core Member</span>
+                        <a href="https://www.linkedin.com/in/shravani-patil-b3953a371" target="_blank" rel="noopener" class="team-social"><i class='bx bxl-linkedin'></i></a>
+                    </div>
+                    <div class="team-card" data-reveal>
+                        <div class="team-avatar">YK</div>
+                        <h4 class="team-name">Yash Khambekar</h4>
+                        <span class="team-role">Core Member</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Alumni -->
+            <div class="team-section">
+                <h3 class="team-section-title" data-reveal>Our Legacy</h3>
+                <div class="alumni-grid">
+                    <div class="alumni-item" data-reveal><span>01</span> <strong>Bhavika Bhosale</strong> <em>General Secretary</em></div>
+                    <div class="alumni-item" data-reveal><span>02</span> <strong>Harshada Gade</strong> <em>Tech Lead</em></div>
+                    <div class="alumni-item" data-reveal><span>03</span> <strong>Riya Kanagale</strong> <em>Design Lead</em></div>
+                    <div class="alumni-item" data-reveal><span>04</span> <strong>Sanmati Tighare</strong> <em>Operation Lead</em></div>
+                    <div class="alumni-item" data-reveal><span>05</span> <strong>Pratham Saraswat</strong> <em>Media Lead</em></div>
+                    <div class="alumni-item" data-reveal><span>06</span> <strong>Srujal Warade</strong> <em>Core Member</em></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join CTA -->
+    <section class="join" id="join">
+        <div class="container">
+            <div class="join-content" data-reveal>
+                <h2 class="join-title">READY TO BUILD<br>SOMETHING EXTRAORDINARY?</h2>
+                <p class="join-text">Join a community where ideas become ventures, founders are built, and opportunities become action.</p>
+                <div class="join-cta">
+                    <a href="#contact" class="btn btn-primary btn-lg">JOIN THE MOVEMENT</a>
+                    <a href="#about" class="btn btn-secondary btn-lg">EXPLORE SUCCESS SQUAD</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info" data-reveal>
+                    <span class="section-tag">GET IN TOUCH</span>
+                    <h2 class="section-title">Let's build <em>together.</em></h2>
+                    <p class="contact-text">Whether you want to join, collaborate, pitch an idea, or partner with us — we'd love to hear from you.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class='bx bx-envelope'></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:jspmecell@gmail.com">jspmecell@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class='bx bx-location-plus'></i>
+                            <div>
+                                <h4>Find Us</h4>
+                                <p>Success Squad Room, B Building, Room 315<br>JSPM NTC, Narhe, Pune</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class='bx bx-time'></i>
+                            <div>
+                                <h4>Office Hours</h4>
+                                <p>Mon – Fri: 4 PM – 7 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <a href="https://www.instagram.com/success_squad_8/" target="_blank" rel="noopener" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://www.linkedin.com/company/success-squad08/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://www.youtube.com/@Success_squad_08" target="_blank" rel="noopener" aria-label="YouTube"><i class='bx bxl-youtube'></i></a>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm" data-reveal>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">I want to...</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select an option</option>
+                            <option value="join">Join the Success Squad Team</option>
+                            <option value="collab">Collaborate on an Event</option>
+                            <option value="startup">Submit a Startup Idea</option>
+                            <option value="sponsor">Sponsor Success Squad</option>
+                            <option value="speaker">Invite as Speaker</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        SEND MESSAGE
+                        <i class='bx bx-send'></i>
+                    </button>
+                    <div class="form-success" id="formSuccess">
+                        <i class='bx bx-check-circle'></i>
+                        <span>Thanks for reaching out! We'll get back to you within 2-3 working days.</span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="Success Squad.jpg" alt="Success Squad" class="footer-logo">
+                    <h3>SUCCESS SQUAD</h3>
+                    <p>Entrepreneurship Development Cell<br>JSPM Narhe Technical Campus</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Navigate</h4>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#team">Team</a>
+                    <a href="#events">Events</a>
+                    <a href="#startups">Startups</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Connect</h4>
+                    <a href="mailto:jspmecell@gmail.com">jspmecell@gmail.com</a>
+                    <a href="https://www.instagram.com/success_squad_8/" target="_blank" rel="noopener">Instagram</a>
+                    <a href="https://www.linkedin.com/company/success-squad08/" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="https://www.youtube.com/@Success_squad_08" target="_blank" rel="noopener">YouTube</a>
+                </div>
+            </div>
+            
+            <div class="footer-big">FROM VISION TO VENTURE.</div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Success Squad EDC. All rights reserved.</p>
+                <p>Built with ambition on campus.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
